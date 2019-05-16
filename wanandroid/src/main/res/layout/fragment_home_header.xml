@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="180dp">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/home_header"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/banner_text"
+        android:gravity="center_vertical"
+        android:text="一起来"
+        android:textSize="16sp"
+        android:paddingLeft="@dimen/dp_10"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:background="#aa808080"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <LinearLayout
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:id="@+id/banner_indictor"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp">
+
+    </LinearLayout>
+
+
+</RelativeLayout>

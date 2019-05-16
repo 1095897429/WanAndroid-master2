@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+        android:id="@+id/collect"
+        app:showAsAction="never"
+        android:title="@string/collect"/>
+    <item
+        android:id="@+id/broswer"
+        app:showAsAction="never"
+        android:title="@string/broswer"/>
+    <item
+        android:id="@+id/share"
+        app:showAsAction="never"
+        android:title="@string/share"/>
+</menu>
